@@ -2,154 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4517c5a9-2502-4c9b-aa51-0c223dc25a45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/logs/solr.log" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service/logs/solr.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/docker-compose.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sprintmanag-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/eureka/EurekaServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/eureka/EurekaServerNode2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/WebServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/SprintController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/SubTaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/TeamController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/WebController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/Annotations/PositiveNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/Exceptions/CustomException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/Exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/SprintManagApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/controllers/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/controllers/SprintController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/controllers/SubTaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/controllers/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/controllers/TeamController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/handling/Initializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/RoleName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/Sprint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/SubTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/TaskStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/Team.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/repositories/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/repositories/SprintRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/repositories/SubTaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/repositories/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/repositories/TeamRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/security/SecurityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/security/SecurityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/security/UserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/services/SprintService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/services/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/validators/PositiveNumberValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/validators/SubTaskValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/sprintManag/validators/UserValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/Annotations/PositiveNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/Exceptions/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/Exceptions/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/ItProjectManagementApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/SprintController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/SubTaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/TeamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/handling/Initializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/RoleName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Sprint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/SubTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/TaskStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/SprintRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/SubTaskRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/TaskRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/TeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/security/SecurityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/security/SecurityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/security/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/services/SprintService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/validators/PositiveNumberValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/validators/SubTaskValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/validators/UserValidator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/eureka-server-node2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/eureka-server.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/templates/add-user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/templates/update-user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/templates/user-data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/resources/webmvc-server.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/actualHours.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/actualdonedaily.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/actualremaindaily.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/developerPerformance.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/printList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/printList1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/profile.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/sprint.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/sprintcharts.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/sprintform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/sprintteam.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/sprintteamform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/subtask.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/subtaskform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/subtaskteamform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/task.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/taskform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/team.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/teamform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/teammember.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/teammemberform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/test.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/views/userform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/resources/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/resources/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/resources/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/resources/registration.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/main/webapp/resources/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service/src/test/java/se/BTH/ITProjectManagement/ItProjectManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service/src/test/java/se/BTH/services/sprintManag/SprintManagApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/eureka/EurekaServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/eureka/EurekaServerNode2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/Annotations/PositiveNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/Exceptions/CustomException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/Exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/ItProjectManagementApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/SprintController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/SubTaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/TeamController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/handling/Initializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/RoleName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Sprint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/SubTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/TaskStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/Team.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/SprintRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/SubTaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/TeamRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/security/SecurityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/security/SecurityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/security/UserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/services/SprintService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/services/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/validators/PositiveNumberValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/validators/SubTaskValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/sprintManag/validators/UserValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/SprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/SubTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SubTaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TeamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/ITProjectManagement/webmvc/controllers/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/resources/eureka-server-node2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/resources/eureka-server.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/resources/webmvc-server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc-service" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/employee-service/target/" />
@@ -173,28 +67,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-service/src/main/java/se/BTH/services/config/ConfigApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1000">
+              <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery-service/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/proxy-service/src/main/java/se/BTH/service/proxy/api/ProxyApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/se/BTH/services/discovery/DiscoveryApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/SprintManagApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="650">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -202,7 +106,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/webmvc-service" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -215,6 +119,9 @@
         <option value="$PROJECT_DIR$/proxy-service/pom.xml" />
         <option value="$PROJECT_DIR$/sprintmanag-service/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-service/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java" />
+        <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/SprintManagApplication.java" />
+        <option value="$PROJECT_DIR$/sprintmanag-service/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -257,6 +164,51 @@
               <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -283,6 +235,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\microservices-scrum" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -295,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigApplication">
+  <component name="RunManager" selected="Spring Boot.SprintManagApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="se.BTH.services.config.ConfigApplication" />
@@ -365,17 +322,26 @@
       <updated>1563971665418</updated>
       <workItem from="1563971669962" duration="3016000" />
       <workItem from="1564988550669" duration="17000" />
-      <workItem from="1564988881221" duration="3493000" />
+      <workItem from="1564988881221" duration="8127000" />
     </task>
+    <task id="LOCAL-00001" summary="sprint manag services done">
+      <created>1564992466736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564992466737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6526000" />
+    <option name="totallyTimeSpent" value="11160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24597207" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30945945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,7 +358,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.7640118" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40511307" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -412,6 +378,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sprint manag services done" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint manag services done" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -486,16 +456,6 @@
     <entry file="file://$PROJECT_DIR$/sprintmanag-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/java/se/BTH/services/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/discovery-service/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -507,10 +467,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/Annotations/PositiveNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/se/BTH/services/discovery/DiscoveryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/java/se/BTH/services/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/se/BTH/services/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-service/src/main/java/se/BTH/service/proxy/api/ProxyApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/SprintManagApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
         </state>
       </provider>
     </entry>
