@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4517c5a9-2502-4c9b-aa51-0c223dc25a45" name="Default Changelist" comment="webmvc service controllers done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/Annotations/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/Exceptions/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/Exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/SprintManagApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/SprintController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/SubTaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/TeamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/handling/Initializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/RoleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/Sprint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/SubTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/TaskStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/repositories/SprintRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/repositories/SubTaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/repositories/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/repositories/TeamRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/security/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/security/SecurityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/SprintService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/validators/PositiveNumberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/validators/SubTaskValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/validators/UserValidator.java" afterDir="false" />
+    <list default="true" id="4517c5a9-2502-4c9b-aa51-0c223dc25a45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_grapher_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_1_12_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_api_1_12_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_core_1_12_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprintmanag-service" beforeDir="false" afterPath="$PROJECT_DIR$/sprintmanag-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc-service" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc-service" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/employee-service/target/" />
@@ -62,7 +67,32 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Role.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webmvc-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="248" selection-start-line="248" selection-end-line="248" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webmvc-service/webmvc-service.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webmvc-service/target/classes/static/js/bootstrap.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -94,44 +124,41 @@
         <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/TeamController.java" />
         <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/SprintService.java" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/SprintService.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java" />
         <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/UserController.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TeamController.java" />
         <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/SubTaskController.java" />
         <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/TaskController.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SubTaskController.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TaskController.java" />
         <option value="$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/RoleController.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/Annotations/PositiveNumber.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/PositiveNumberValidator.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/SecurityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/UserService.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/UserValidator.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/SubTaskValidator.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/sprintManag/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/services/sprintManag/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/sprintmanag-service/pom.xml" />
-        <option value="$PROJECT_DIR$/webmvc-service/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/User.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/PositiveNumberValidator.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/SubTaskValidator.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/UserValidator.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/UserService.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/Annotations/PositiveNumber.java" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Role.java" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Sprint.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/SubTask.java" />
-        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Task.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/User.java" />
         <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Team.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Task.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/SubTask.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/SprintService.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SubTaskController.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TaskController.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TeamController.java" />
+        <option value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/sprintmanag-service/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-service/pom.xml" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ITProjectManagement" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="microservices-scrum" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -141,15 +168,24 @@
           <item name="microservices-scrum" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sprintmanag-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sprintmanag-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="2114" />
+    <option name="y" value="112" />
+    <option name="width" value="1546" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,15 +200,12 @@
               <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="microservices-scrum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-scrum" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc-service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +217,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webmvc-service/target" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -195,16 +226,26 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\microservices-scrum\webmvc-service\src\main\java\se\BTH\service\webmvc" />
+      <recent name="E:\microservices-scrum\webmvc-service\target" />
+      <recent name="E:\microservices-scrum\webmvc-service" />
+      <recent name="E:\microservices-scrum" />
+      <recent name="E:\microservices-scrum\sprintmanag-service\src" />
+      <recent name="E:\microservices-scrum\sprintmanag-service\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="se.BTH.service.webmvc.Annotations" />
       <recent name="se.BTH.service.webmvc.models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\microservices-scrum\webmvc-service" />
+      <recent name="E:\microservices-scrum\sprintmanag-service" />
       <recent name="E:\microservices-scrum" />
     </key>
   </component>
@@ -220,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProxyApplication">
+  <component name="RunManager" selected="Spring Boot.WebServer">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="se.BTH.services.config.ConfigApplication" />
@@ -291,7 +332,10 @@
       <workItem from="1563971669962" duration="3016000" />
       <workItem from="1564988550669" duration="17000" />
       <workItem from="1564988881221" duration="8127000" />
-      <workItem from="1565074879178" duration="21130000" />
+      <workItem from="1565074879178" duration="21853000" />
+      <workItem from="1565174432706" duration="8747000" />
+      <workItem from="1565249983027" duration="679000" />
+      <workItem from="1565250743774" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="sprint manag services done">
       <created>1564992466736</created>
@@ -335,16 +379,39 @@
       <option name="project" value="LOCAL" />
       <updated>1565172605298</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" done">
+      <created>1565173536255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565173536255</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" done">
+      <created>1565173644738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565173644738</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32290000" />
+    <option name="totallyTimeSpent" value="42885000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24382384" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29215896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -354,25 +421,25 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4719764" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" weight="0.29006884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32940018" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32940018" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.44936088" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.44936088" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053704" side_tool="true" visible="true" weight="0.29006884" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32940018" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32940018" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32940018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973147" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32972974" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32921588" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -391,372 +458,18 @@
     <MESSAGE value="fix" />
     <MESSAGE value="webmvc service all controllers done" />
     <MESSAGE value="webmvc service controllers done" />
-    <option name="LAST_COMMIT_MESSAGE" value="webmvc service controllers done" />
+    <MESSAGE value=" done" />
+    <option name="LAST_COMMIT_MESSAGE" value=" done" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md" />
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/Annotations/PositiveNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/java/se/BTH/services/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/se/BTH/services/discovery/DiscoveryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-service/src/main/java/se/BTH/service/proxy/api/ProxyApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/Sprint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="116" column="33" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/SprintService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/SprintService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/WebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="104" column="32" selection-start-line="104" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/SprintController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/SubTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/TeamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/SubTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="202" column="94" selection-start-line="202" selection-start-column="94" selection-end-line="202" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getPermission#0;class#SubTaskController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2800">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/Annotations/PositiveNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/PositiveNumberValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/SprintService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/UserValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/SecurityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/validators/UserValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/validators/SubTaskValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/security/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/TeamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="104" column="21" selection-start-line="104" selection-end-line="105" />
-          <folding>
-            <element signature="method#getPermission#0;class#TeamController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1126">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="method#registration#0;class#UserController#0" />
-            <element signature="method#login#0;class#UserController#0" />
-            <element signature="method#hello#0;class#UserController#0" />
-            <element signature="method#getPermission#0;class#UserController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/SprintManagApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/services/sprintManag/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Sprint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/SubTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,6 +495,360 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/services/sprintManag/WebSecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/validators/PositiveNumberValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/validators/SubTaskValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/validators/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/Annotations/PositiveNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/TaskStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/RoleName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/Sprint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/models/SubTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/security/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/security/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/services/SprintService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/src/main/java/se/BTH/services/sprintManag/services/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/src/main/java/se/BTH/services/sprintManag/services/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="41" column="115" selection-start-line="41" selection-start-column="115" selection-end-line="41" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/src/main/java/se/BTH/services/sprintManag/controllers/SprintController.java" />
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/controllers/SubTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/controllers/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/controllers/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="90" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/controllers/TeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2435">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/src/main/java/se/BTH/services/sprintManag/controllers/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding>
+            <element signature="method#registration#0;class#UserController#0" />
+            <element signature="method#login#0;class#UserController#0" />
+            <element signature="method#hello#0;class#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/src/main/java/se/BTH/services/sprintManag/controllers/RoleController.java" />
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/src/main/java/se/BTH/service/webmvc/controllers/SprintController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="153" column="22" selection-start-line="153" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/service/proxy/api/ProxyApi.java" />
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6650">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service1/sprintmanag-service.iml" />
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/test/java/se/BTH/services/sprintManag/SprintManagApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/resources/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/models/Role.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/sprintmanag-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/SprintManagApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprintmanag-service/src/main/java/se/BTH/services/sprintManag/services/SprintService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/services/sprintManag/models/Role.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/src/main/java/se/BTH/service/webmvc/models/Role.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/webmvc-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/target/classes/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmvc-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sprintmanag-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="" />
