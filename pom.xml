@@ -11,7 +11,6 @@
 		<module>config-service</module>
 		<module>gateway-service</module>
 		<module>proxy-service</module>
-
 		<module>sprintmanag-service</module>
 		<module>webmvc-service</module>
 	</modules>
