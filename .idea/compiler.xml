@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="discovery-service" />
+        <module name="webmvc-service" />
         <module name="gateway-service" />
         <module name="proxy-service" />
         <module name="config-service" />
-        <module name="webmvc-service" />
-        <module name="sprintmanag-service" />
+        <module name="sprintservice" />
+        <module name="sprint-service" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +21,10 @@
       <module name="gateway-service" target="1.8" />
       <module name="microservices-scrum" target="1.5" />
       <module name="proxy-service" target="1.8" />
+      <module name="sprint-service" target="1.8" />
       <module name="sprintmanag-service" target="1.8" />
+      <module name="sprintmanag-service1" target="1.8" />
+      <module name="sprintservice" target="1.8" />
       <module name="webmvc-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,7 +34,10 @@
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="proxy-service" options="-parameters" />
+      <module name="sprint-service" options="-parameters" />
       <module name="sprintmanag-service" options="-parameters" />
+      <module name="sprintmanag-service1" options="-parameters" />
+      <module name="sprintservice" options="-parameters" />
       <module name="webmvc-service" options="-parameters" />
     </option>
   </component>

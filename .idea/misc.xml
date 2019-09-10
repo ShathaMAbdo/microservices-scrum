@@ -7,10 +7,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testmodule/pom.xml" />
+        <option value="$PROJECT_DIR$/sprint-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/sprintmanag-service/pom.xml" />
+        <option value="$PROJECT_DIR$/sprintmanag-service1/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-service1/pom.xml" />
       </set>
     </option>
