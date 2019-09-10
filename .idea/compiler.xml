@@ -11,6 +11,7 @@
         <module name="proxy-service" />
         <module name="config-service" />
         <module name="sprintservice" />
+        <module name="webservice" />
         <module name="sprint-service" />
         <module name="discovery-service" />
       </profile>
@@ -26,6 +27,7 @@
       <module name="sprintmanag-service1" target="1.8" />
       <module name="sprintservice" target="1.8" />
       <module name="webmvc-service" target="1.8" />
+      <module name="webservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,6 +41,7 @@
       <module name="sprintmanag-service1" options="-parameters" />
       <module name="sprintservice" options="-parameters" />
       <module name="webmvc-service" options="-parameters" />
+      <module name="webservice" options="-parameters" />
     </option>
   </component>
 </project>

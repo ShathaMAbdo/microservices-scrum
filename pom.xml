@@ -13,6 +13,7 @@
 		<module>proxy-service</module>
 		<module>webmvc-service</module>
         <module>sprint-service</module>
-	</modules>
+        <module>web-service</module>
+    </modules>
 	
 </project>
