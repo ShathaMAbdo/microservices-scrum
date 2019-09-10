@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/proxy-service/proxy-service.iml" filepath="$PROJECT_DIR$/proxy-service/proxy-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sprintmanag-service/sprint-service.iml" filepath="$PROJECT_DIR$/sprintmanag-service/sprint-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sprint-service/sprintservice.iml" filepath="$PROJECT_DIR$/sprint-service/sprintservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webmvc-service/webmvc-service.iml" filepath="$PROJECT_DIR$/webmvc-service/webmvc-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-service/webservice.iml" filepath="$PROJECT_DIR$/web-service/webservice.iml" />
     </modules>
   </component>

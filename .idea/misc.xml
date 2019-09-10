@@ -15,6 +15,8 @@
       <set>
         <option value="$PROJECT_DIR$/sprintmanag-service/pom.xml" />
         <option value="$PROJECT_DIR$/sprintmanag-service1/pom.xml" />
+        <option value="$PROJECT_DIR$/webMvc-service/pom.xml" />
+        <option value="$PROJECT_DIR$/webmvc-service/pom.xml" />
         <option value="$PROJECT_DIR$/webmvc-service1/pom.xml" />
       </set>
     </option>

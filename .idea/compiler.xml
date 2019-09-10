@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webmvc-service" />
         <module name="gateway-service" />
         <module name="proxy-service" />
         <module name="config-service" />
@@ -26,6 +25,7 @@
       <module name="sprintmanag-service" target="1.8" />
       <module name="sprintmanag-service1" target="1.8" />
       <module name="sprintservice" target="1.8" />
+      <module name="webMvc-service" target="1.5" />
       <module name="webmvc-service" target="1.8" />
       <module name="webservice" target="1.8" />
     </bytecodeTargetLevel>
