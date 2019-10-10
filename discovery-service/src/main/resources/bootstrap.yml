@@ -1,9 +1,13 @@
 spring:
   application:
     name: discovery-service
+    # HTTP (Tomcat) port
 server:
   port: 8761
+  # Configure this Discovery Server
 eureka:
+  instance:
+    hostname: localhost
   enableSelfPreservation: false
   client:
     register-with-eureka: false

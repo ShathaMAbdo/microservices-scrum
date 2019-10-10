@@ -19,7 +19,6 @@ import java.util.Optional;
 
 
 @RestController
-//@RequestMapping("/api")
 public class UserController {
     private final Logger log = LoggerFactory.getLogger(UserController.class);
 
